@@ -1,0 +1,24 @@
+# 不上传模型文件和原始数据
+data/
+code_backup/
+
+# 不上传中间文件、图片、日志等
+*.csv
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.log
+
+# Python 相关临时文件
+__pycache__/
+*.pyc
+.env
+
+
+# VSCode 等编辑器配置（如果有）
+.vscode/
+.idea/
+
+# Streamlit 本地配置
+.streamlit/
